@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="app-container">
     <div class="search-container">
-        <div class="info"></div>
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    <script src="script.js"></script>
+      <h1 class="title">Weather App</h1>
+      <input type="text" id="locationInput" placeholder="Enter a city"><button type="submit" id="searchButton"></button>
+    </div>
+    <div id="weather-info">
+      <div class="location"></div>
+      <div class="img-container"><img src="./images/rainy-day.png"></div>
+      <div class="temp"></div>
+      <div class="conditions"></div>
+      <div class="humidity"></div>
+      <div class="wind-gust"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
