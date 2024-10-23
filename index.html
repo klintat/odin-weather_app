@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="app-container">
-    <div class="search-container">
-      <h1 class="title">Weather App</h1>
-      <input type="text" id="locationInput" placeholder="Enter a city"><button type="submit" id="searchButton"></button>
-    </div>
-    <div id="weather-info">
-      <div class="location"></div>
-      <div class="img-container"><img src="./images/rainy-day.png"></div>
-      <div class="temp"></div>
-      <div class="conditions"></div>
-      <div class="humidity"></div>
-      <div class="wind-gust"></div>
+  <div id="background">
+    <div class="app-container">
+      <div class="search-container">
+        <h1 class="title">Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city"><button type="search" id="searchButton"></button>
+        <div id="error-display">Error</div>
+      </div>
+      <div id="weather-info">
+        <div class="logo-img"></div>
+        <div class="location"></div>
+        <div class="date"></div>
+        <div class="img-container"></div>
+        <div class="temp"></div>
+        <div class="conditions"></div>
+        <div class="humidity"></div>
+        <div class="wind-gust"></div>
+      </div>
     </div>
   </div>
   <script src="script.js"></script>
