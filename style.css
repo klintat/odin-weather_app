@@ -9,13 +9,7 @@ body, html {
     width: 100vw;
     align-content: center;
     background: linear-gradient(to bottom, #2980b9, #6dd5fa);
-    /* background: url('./images/beautiful-natural-clouds-sky.jpg') no-repeat center center fixed;
-    background-size: cover; */
 }
-
-/* #background {
-    
-} */
 
 .app-container {
     height: 600px;
