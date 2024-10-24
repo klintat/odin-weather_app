@@ -82,6 +82,7 @@ body, html {
 .img-container {
     grid-row: 4;
     grid-column: span 2;
+    align-self: center;
 }
 
 .temp {
@@ -137,7 +138,7 @@ input[type=text] {
     transition: 0.5s;
 }
 
-input[type=text]:focus {
+input[type=text]:focus, input[type=text]:hover {
     color: #787878;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     transition: 0.2s;
@@ -163,8 +164,8 @@ input[type=text]:focus {
 }
 
 .iconConditionImg > img{
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
 }
 
 .logo-img {

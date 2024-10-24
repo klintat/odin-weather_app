@@ -80,7 +80,7 @@ async function getWeather(location){
         windGustElement.appendChild(iconWind);
 
         const iconCondition = data.currentConditions.icon;
-        iconConditionImg.src= `./images/weather/${iconCondition}.png `;
+        iconConditionImg.src= `./images/weather/${iconCondition}.svg`;
         imgConditionElement.appendChild(iconConditionImg);
 
     } catch (error) {
